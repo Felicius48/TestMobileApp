@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TestMobileApp</string>
+    <string name="app_name">Погода</string>
     <string name="bt_text">Нажми на эту кнопку</string>
     <string name="edit_user">Введите город</string>
     <string name="Toast">Поле не может быть пустым</string>

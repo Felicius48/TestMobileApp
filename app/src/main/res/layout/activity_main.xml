@@ -15,16 +15,28 @@
        app:layout_constraintRight_toRightOf="@id/btTouch"
        android:layout_marginBottom="20dp"
        android:layout_marginHorizontal="20dp"
-       android:hint="@string/edit_user"/>
+       android:hint="@string/edit_user"
+       android:inputType="text"/>
+
    <Button
        android:id="@+id/btTouch"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
+       android:layout_marginHorizontal="20dp"
+       android:text="@string/bt_text"
+       app:layout_constraintBottom_toBottomOf="parent"
        app:layout_constraintLeft_toLeftOf="parent"
        app:layout_constraintRight_toRightOf="parent"
-       app:layout_constraintTop_toTopOf="parent"
-       app:layout_constraintBottom_toBottomOf="parent"
-       android:text="@string/bt_text"
-       android:layout_marginHorizontal="20dp"/>
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <TextView
+       android:id="@+id/resfield"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       app:layout_constraintEnd_toEndOf="@+id/btTouch"
+       app:layout_constraintStart_toStartOf="@+id/btTouch"
+       app:layout_constraintTop_toBottomOf="@+id/btTouch"
+       android:layout_marginTop="50dp"
+       android:textSize="30dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

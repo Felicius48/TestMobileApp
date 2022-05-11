@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TestMobileApp</string>
+    <string name="bt_text">Нажми на эту кнопку</string>
+</resources>

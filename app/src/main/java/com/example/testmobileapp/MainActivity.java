@@ -18,7 +18,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button btTouch = findViewById(R.id.btTouch);
-        EditText edit_user = findViewById(R.id.edit_user);
+        EditText edit_user = findViewById(R.id.edit_user); //Определение элемента EditText
+
 
         btTouch.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -37,6 +37,7 @@
        app:layout_constraintStart_toStartOf="@+id/btTouch"
        app:layout_constraintTop_toBottomOf="@+id/btTouch"
        android:layout_marginTop="50dp"
-       android:textSize="30dp"/>
+       android:textSize="30dp"
+       android:fontFamily="sans-serif-medium"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
